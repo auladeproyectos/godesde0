@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	"github.com/Auladeproyectos/godesde0/ejercicios"
 )
 
 func main() {
 
 	/*estado, texto := variables.ConviertoaTexto(1677)
 	fmt.Println(estado)
-	fmt.Println(texto) */
+	fmt.Println(texto)
 
 	os := runtime.GOOS
 
@@ -29,5 +30,11 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 
-	}
+	}*/
+
+	numero, texto := ejercicios.Convertirstring("99")
+
+	fmt.Println(numero)
+	fmt.Println(texto)
+
 }
