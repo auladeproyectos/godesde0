@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Auladeproyectos/godesde0/teclado"
+	"github.com/Auladeproyectos/godesde0/ejercicios"
 )
 
 func main() {
@@ -34,7 +34,11 @@ func main() {
 
 	fmt.Println(numero)
 	fmt.Println(texto)
-	*/
 
 	teclado.Ingresonumeros()
+
+	iteraciones.Iterar()*/
+
+	ejercicios.NumeroTeclado()
+
 }
