@@ -53,6 +53,7 @@ func main() {
 
 	//arreglos_slices.MuestroArreglos()
 
-	arreglos_slices.Muestroslices()
+	//arreglos_slices.Muestroslices()
+	arreglos_slices.Capacidad()
 
 }
