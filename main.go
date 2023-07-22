@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/Auladeproyectos/godesde0/files"
-)
+import "github.com/Auladeproyectos/godesde0/arreglos_slices"
 
 func main() {
 
@@ -46,5 +44,15 @@ func main() {
 	//files.GrabarTabla()
 	//files.SumaTabla()
 
-	files.Leoarchivo()
+	//files.Leoarchivo()
+
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	arreglos_slices.Muestroslices()
+
 }
