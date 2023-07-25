@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Auladeproyectos/godesde0/mapas"
+	"github.com/Auladeproyectos/godesde0/users"
 )
 
 func main() {
@@ -58,6 +58,8 @@ func main() {
 	//arreglos_slices.Muestroslices()
 	//arreglos_slices.Capacidad()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	users.Altausuario()
 
 }
