@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/Auladeproyectos/godesde0/users"
+	e "github.com/Auladeproyectos/godesde0/ejer_interface"
+	 "github.com/Auladeproyectos/godesde0/modelos"
 )
 
 func main() {
@@ -60,6 +61,14 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.Altausuario()
+	// users.Altausuario()
+
+	Pedro:= new(modelos.Hombre)
+
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+
 
 }
