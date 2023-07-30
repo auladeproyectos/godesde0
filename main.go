@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/Auladeproyectos/godesde0/ejer_interface"
-	 "github.com/Auladeproyectos/godesde0/modelos"
+	"github.com/Auladeproyectos/godesde0/middlewear"
 )
 
 func main() {
@@ -63,12 +62,28 @@ func main() {
 
 	// users.Altausuario()
 
-	Pedro:= new(modelos.Hombre)
+	/*	Pedro:= new(modelos.Hombre)
 
-	e.HumanosRespirando(Pedro)
+		e.HumanosRespirando(Pedro)
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+		Maria := new(modelos.Mujer)
+		e.HumanosRespirando(Maria)
 
+	*/
+	//defer_panic.VerDefer()
+
+	//defer_panic.VerPanic()
+
+	/*	canal1 := make(chan bool)
+
+		go goruntines.Minombrelento("Luis Lopez", canal1)
+
+		fmt.Println("Todavia Estoy aqui")
+
+		<-canal1 */
+
+	// webserve.MiWebserver()
+
+	middlewear.Mimiddleware()
 
 }
